@@ -99,8 +99,8 @@ for epoch in range(1, epochs+1):
         loss_val = torch.tensor([0.]).to(device)
     epoch_loss_val_array.append(sum(loss_val_array[-batch_size:])/batch_size)
 
-    print(f'epoch: {epoch} \t\tloss: {epoch_loss_array[-1]:.5f}  \t\tval loss: {loss_val_array[-1]:.5f} \t\tlr: {lr_array[-1]}')
-    print(f'epoch: {epoch} \t\tloss: {epoch_loss_array[-1]:.5f}  \t\tval loss: {loss_val_array[-1]:.5f} \t\tlr: {lr_array[-1]}',file=f)
+    print(f'epoch: {epoch} \t\tloss: {epoch_loss_array[-1]:.5f}  \t\tval loss: {epoch_loss_val_array[-1]:.5f} \t\tlr: {lr_array[-1]}')
+    print(f'epoch: {epoch} \t\tloss: {epoch_loss_array[-1]:.5f}  \t\tval loss: {epoch_loss_val_array[-1]:.5f} \t\tlr: {lr_array[-1]}',file=f)
 
 training_time = (time.time()-start)/60
 

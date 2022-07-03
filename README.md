@@ -4,3 +4,9 @@ This repository contains the material related to the project of the Numerical An
 
 Students: Nicola Farenga, Gabriele Martinelli, Luca Saverio.
 
+## Installation
+
+In order to run the code multiple dependencies have to be installed, first of all pytorch and pytorch-geometric
+
+
+
