@@ -1,0 +1,9 @@
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/CMakeFiles/ALL_BUILD.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/CMakeFiles/ZERO_CHECK.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/libmetis/CMakeFiles/metis.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/programs/CMakeFiles/gpmetis.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/programs/CMakeFiles/ndmetis.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/programs/CMakeFiles/mpmetis.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/programs/CMakeFiles/m2gmetis.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/programs/CMakeFiles/graphchk.dir
+C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/programs/CMakeFiles/cmpfillin.dir

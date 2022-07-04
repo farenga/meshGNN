@@ -1,0 +1,10 @@
+^C:\USERS\ENRIC\DOCUMENTS\UNIVERSITÀ\PHD\MESH_ANN\AGGLOMERATION\METISMEX-MASTER\EXTERNAL\METIS\LIBMETIS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis -BC:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64 --check-stamp-file C:/Users/enric/Documents/università/phd/MESH_ANN/Agglomeration/metismex-master/external/metis/build/Win-x86_64/libmetis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

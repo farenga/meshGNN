@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\b64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\blas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\csr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\evaluate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\fkvkselect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\fs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\gkregex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\graph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\htable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\itemsets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\mcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\omp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\pdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\pqueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\rw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\seq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\tokenizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\GKlib\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\auxapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\balance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\bucketsort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\checkgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\coarsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\contig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\fm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\fortran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\frename.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\gklib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\graph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\initpart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\kmetis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\kwayfm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\kwayrefine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\mcutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\meshpart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\minconn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\mincover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\mmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\ometis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\parmetis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\pmetis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\refine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\separator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\sfm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\srefine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\stat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\timing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\wspace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\enric\Documents\università\phd\MESH_ANN\Agglomeration\metismex-master\external\metis\libmetis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23A2F6B8-7544-3450-B344-4CAE047AB6B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
