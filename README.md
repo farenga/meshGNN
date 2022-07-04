@@ -25,5 +25,8 @@ retrievable by running the python command ``torch.__version__``.
 
 The folder structure is the following:
 - [`dataset_generation`](dataset_generation) contains the MATLAB scripts used for generating the meshes, extracting the graphs together with their features, and the concatenation scripts to bundle the data.
-- ['training'](training) contains the python scripts used for the definition and training of the models, the trained models, and the runtime benchmarking test.
-- ['code_agglom_MG'](code_agglom_MG) contains the MATLAB code to perform agglomeration and numerical experiments (multigrid), with the different python wrappers to load the models within the `code_agglom_MG/mesh/agglomerate` folder. (In order to load the selected model, the path to the trained model has to be replaced in the file `code_agglom_MG/mesh/agglomerate/aggl_GNN_fun.m`).
+- [`training`](training) contains the python scripts used for the definition and training of the models, the trained models, and the runtime benchmarking test.
+- [`code_agglom_MG`](code_agglom_MG) contains the MATLAB code to perform agglomeration and numerical experiments (multigrid), with the different python wrappers to load the models within the `code_agglom_MG/mesh/agglomerate` folder. 
+
+    > **Note**
+    > In order to load the selected model, the path to the trained model has to be replaced at line 7 of the file `code_agglom_MG/mesh/agglomerate/aggl_GNN_fun.m`, and the model's wrapper name ha to be updated at line 21.
