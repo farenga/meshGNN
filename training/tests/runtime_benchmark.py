@@ -1,3 +1,7 @@
+# runtime benchmarking wrt k-means
+# nx-metis installation is recommended via colab
+# for which the notebook is provideds
+
 import os
 import sys
 from pathlib import Path
