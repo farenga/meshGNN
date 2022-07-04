@@ -3,8 +3,8 @@ function IDX = aggl_GNN_fun(mesh,weights,net)
 % weights è un vettore che contiene l'area di ogni poligono
 % IDX è un vettore che contine il cluster (1 o 2) di ogni poligono
 
-% ATTENTION: Copy the directory to the model file
-model_directory = 'C:\Users\gabri\Desktop\ProgettoNAPDE\meshGNN\code_agglom_MG\mesh\agglomerate\model_base.pt';
+% ATTENTION: replace the directory to the model file
+model_directory = 'C:\Users\****path-to***\meshGNN\code_agglom_MG\mesh\agglomerate\model_base.pt';
 
 
 [graph,W] = connectivity(mesh);
@@ -17,6 +17,7 @@ Adjacency = py.numpy.array(Adjacency);
 Areas = py.numpy.array(Areas);
 Coords = py.numpy.array(Coords);
 
+% ATTENTION: replace the wrapper related the loaded model
 y = pyrunfile(['runmodel_base.py ',model_directory], "z", Adjacency=Adjacency, Areas=Areas, Coords=Coords);
 y = int64(y);
 IDX = y(:,1) + 1;
