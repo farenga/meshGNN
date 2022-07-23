@@ -29,4 +29,4 @@ The folder structure is the following:
 - [`code_agglom_MG`](code_agglom_MG) contains the MATLAB code to perform agglomeration and numerical experiments (multigrid), with the different python wrappers to load the models within the `code_agglom_MG/mesh/agglomerate` folder. 
 
     > **Note**
-    > In order to load the selected model, the path to the trained model has to be replaced at line 7 of the file `code_agglom_MG/mesh/agglomerate/aggl_GNN_fun.m`, and the model's wrapper filename has to be updated at line 21.
+    > To load a specific model, the path to the trained model at line 7 of the file `code_agglom_MG/mesh/agglomerate/aggl_GNN_fun.m`, and the model's wrapper filename at line 21, have to be both updated.
