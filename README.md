@@ -1,4 +1,4 @@
-# DL-based Methods for Polygonal Grids Agglomeration
+# GNN-based Polygonal Grids Agglomeration
 
 This repository contains the material related to the implementation of the GNN-based method introduced in the paper: [Agglomeration of Polygonal Grids using Graph Neural Networks with applications to Multigrid solvers](https://arxiv.org/abs/2210.17457).
 
