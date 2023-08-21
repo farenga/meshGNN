@@ -1,4 +1,4 @@
-function iter = multigrid_iterations(aggl_mesh,m,p)
+function [iter,iter_cg] = multigrid_iterations(aggl_mesh,m,p)
 
 %==========================================
 %  Main of Multigrid with ASM as Smoother
@@ -6,7 +6,7 @@ function iter = multigrid_iterations(aggl_mesh,m,p)
 
 %% parameters
 nmax = 10000;
-tol = 1e-8;
+tol = 1e-6;
 do_CG = true;
 
 %% grid 
@@ -45,7 +45,7 @@ end
 if do_CG
     disp('I am doing the CG method...');
     tstart = tic;
-    [~,~,~,iter_cg] = pcg(A{1},f,1e-8,100000);
+    [~,~,~,iter_cg] = pcg(A{1},f,tol,nmax); % aggiungo chiamata a quello che sta sotto
     telapse = toc(tstart);
     disp(['- CG time: ',num2str(telapse),' CG iter: ',num2str(iter_cg)]);
 end

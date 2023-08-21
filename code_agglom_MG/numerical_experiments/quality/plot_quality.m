@@ -1,8 +1,8 @@
 clear, clc, close all
 
 grids = {'tria','rand_tria','rand_voro','quads'};
-methods = {'metis','kmeans','GNN_base','GNN_Res'};
-names = {'metis','kmeans','SAGE-Base','SAGE-Res'};
+methods = {'metis','kmeans','GNN'};
+names = {'metis','k-means','GNN'};
 
 HV = 'V'; % 'H' = horizontal, 'V' = vertical 
 format = @(HV,H,V) (HV == 'H')*H + (HV == 'V')*V;
@@ -85,7 +85,8 @@ switch HV
         L.Position = [0.4068 0.4605 0.2204 0.0374];
     case 'V'
         f.Name = 'quality_vertical';
-        L.Position = [0.24 0.0272 0.56 0.0378];
+%         L.Position = [0.24 0.0272 0.56 0.0378];
+ L.Position = [0.3351    0.0194    0.3529    0.0423];
         f.Position = [489 41.8000 748.8000 740.8000];
 end
 

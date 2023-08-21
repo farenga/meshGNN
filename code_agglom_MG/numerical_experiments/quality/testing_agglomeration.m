@@ -8,7 +8,7 @@ n_aggl = length(h_list);
 
 N = 1;
 grids = {'tria','randtria','voro','quad'};
-methods = {'metis','kmeans','GNN_base'}; % Attention: run also GNN_Res, by changing the aggl_mesh_GNN function
+methods = {'GNN'}; % Attention: run also GNN_Res, by changing the aggl_mesh_GNN function
 
 for ii = 1:50
     display(['N = ',num2str(ii)])

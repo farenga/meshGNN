@@ -2,8 +2,8 @@ clear, clc, close all
 rng('default')
 
 grids = {'tria','rand_tria','rand_voro','quads'};
-methods = {'metis','kmeans','GNN_base', 'GNN_Res'};
-names = {'metis','kmeans','SAGE-Base','SAGE-Res'};
+methods = {'metis','kmeans','GNN'};
+names = {'metis','k-means','GNN'};
 
 G = length(grids);
 M = length(methods);
@@ -18,7 +18,7 @@ end
 for g = 1:G
     for m = 1:M
         load([grids{g},'_',methods{m}])
-        matrix{g,m+1} = copy(aggl_mesh{end});
+        matrix{g,m+1} = copy(aggl_mesh{end-1});
     end
 end
 
